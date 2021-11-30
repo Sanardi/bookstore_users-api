@@ -1,13 +1,14 @@
 package users
 
 import (
-	"github.com/federicoleon/bookstore_users-api/datasources/mysql/users_db"
+	"errors"
 	"fmt"
 	"strings"
-	"github.com/federicoleon/bookstore_users-api/utils/mysql_utils"
-	"github.com/federicoleon/bookstore_utils-go/rest_errors"
-	"errors"
-	"github.com/federicoleon/bookstore_utils-go/logger"
+
+	"github.com/Sanardi/bookstore_users-api/datasources/mysql/users_db"
+	"github.com/Sanardi/bookstore_users-api/utils/mysql_utils"
+	"github.com/Sanardi/bookstore_utils-go/logger"
+	"github.com/Sanardi/bookstore_utils-go/rest_errors"
 )
 
 const (

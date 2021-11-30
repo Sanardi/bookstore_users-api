@@ -1,10 +1,10 @@
 package services
 
 import (
-	"github.com/federicoleon/bookstore_users-api/domain/users"
-	"github.com/federicoleon/bookstore_users-api/utils/date_utils"
-	"github.com/federicoleon/bookstore_users-api/utils/crypto_utils"
-	"github.com/federicoleon/bookstore_utils-go/rest_errors"
+	"github.com/Sanardi/bookstore_users-api/domain/users"
+	"github.com/Sanardi/bookstore_users-api/utils/crypto_utils"
+	"github.com/Sanardi/bookstore_users-api/utils/date_utils"
+	"github.com/Sanardi/bookstore_utils-go/rest_errors"
 )
 
 var (

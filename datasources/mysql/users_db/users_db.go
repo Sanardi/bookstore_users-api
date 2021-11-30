@@ -4,9 +4,10 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
-	"github.com/go-sql-driver/mysql"
 	"os"
-	"github.com/federicoleon/bookstore_utils-go/logger"
+
+	"github.com/Sanardi/bookstore_utils-go/logger"
+	"github.com/go-sql-driver/mysql"
 )
 
 const (
