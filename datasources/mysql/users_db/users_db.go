@@ -36,6 +36,7 @@ func init() {
 		panic(err)
 	}
 	if err = Client.Ping(); err != nil {
+		fmt.Println("Panic, there is no Database connected!")
 		panic(err)
 	}
 
